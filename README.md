@@ -7,6 +7,7 @@ Server on node.js, express, MongoDB, bcrypt, JWT
       -Authorization
           -Bearer (JWT TOKEN on createt auth)
 }
+
 {
   POST http://localhost:5000/auth/registration
   
@@ -17,6 +18,7 @@ Server on node.js, express, MongoDB, bcrypt, JWT
               "password": "admin23"
            }
 }
+
 {
   post http://localhost:5000/auth/login
   
